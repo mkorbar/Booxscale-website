@@ -1,9 +1,4 @@
-:root {
-	--bs-primary: #d02d35;
-}
-
 body {
-	--bs-primary: #d02d35;
 	background-image: url('../img/top-banner.png');
 	background-repeat: no-repeat;
 	background-position:  center top;
