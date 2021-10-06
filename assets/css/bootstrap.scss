@@ -1,0 +1,22 @@
+
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: #042638;
+$body-bg: #fff;
+
+$primary: #d02d35;
+
+$font-size-base: 1.313rem;
+
+
+$nav-link-color: $body-color;
+$nav-link-font-size: 1rem;
+$navbar-padding-y: 15px;
+
+
+// TO DO: Only import bootstrap parts that we need not the whole bootstrap
+@import "../../node_modules/bootstrap//scss/bootstrap";
