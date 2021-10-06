@@ -10,13 +10,14 @@ $body-bg: #fff;
 
 $primary: #d02d35;
 
-$font-size-base: 1.313rem;
+$font-size-base: 1rem;
 
 
 $nav-link-color: $body-color;
 $nav-link-font-size: 1rem;
 $navbar-padding-y: 15px;
 
+$btn-padding-x: 1em;
 
 // TODO: Only import bootstrap parts that we need not the whole bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";

@@ -8,32 +8,12 @@
 
 .landing-banner-container {
   min-height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #Rectangle_1 {
-  -webkit-animation: rotate-1 2s linear infinite;
-          animation: rotate-1 2s linear infinite;
-}
-
-@-webkit-keyframes rotate-1 {
-  0% {
-    -webkit-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
-  }
-  50% {
-    -webkit-transform: rotateZ(-31deg);
-    transform: rotateZ(-31deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
-  }
+  animation: rotate-1 2s linear infinite;
 }
 
 @keyframes rotate-1 {
@@ -51,23 +31,7 @@
   }
 }
 #Rectangle_2 {
-  -webkit-animation: rotate-2 2s linear infinite;
-          animation: rotate-2 2s linear infinite;
-}
-
-@-webkit-keyframes rotate-2 {
-  0% {
-    -webkit-transform: rotateZ(-30deg);
-    transform: rotateZ(-34deg);
-  }
-  50% {
-    -webkit-transform: rotateZ(-31deg);
-    transform: rotateZ(-33deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(-30deg);
-    transform: rotateZ(-34deg);
-  }
+  animation: rotate-2 2s linear infinite;
 }
 
 @keyframes rotate-2 {
@@ -132,3 +96,10 @@ hr.red {
 .faq-header .graphics {
   background-image: url("../img/faq-icon.png");
 }
+
+button.covered {
+  position: relative;
+  left: -1em;
+}
+
+/*# sourceMappingURL=custom.css.map */
