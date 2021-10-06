@@ -139,4 +139,10 @@ ul.dotted-list li::before {
   bottom: -4px;
 }
 
+#how-it-works {
+  padding-top: 4em;
+  background: url("../img/re-setting.png") top left no-repeat;
+  background-size: 3em;
+}
+
 /*# sourceMappingURL=custom.css.map */
