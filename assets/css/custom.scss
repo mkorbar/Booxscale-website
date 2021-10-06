@@ -109,6 +109,7 @@ button.covered {
 
 .dotted-list {
     border-left: var(--bs-primary) dotted thick;
+    padding-left: 4px;
 }
 
 .dotted-list li {
@@ -123,7 +124,6 @@ ul.dotted-list li::before {
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 3.2em; /* Also needed for space (tweak if needed) */
-    margin-left: -1.8em; /* Also needed for space (tweak if needed) */
 }
 
 .dotted-list .pt-0 {
@@ -136,8 +136,35 @@ ul.dotted-list li::before {
     bottom: -4px;
 }
 
+.dotted-list-left {
+    direction: rtl;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.dotted-list-left li {
+    padding-right: 4px;
+}
+
+.no-dots::before {
+    content: '';
+}
+
 #how-it-works {
     padding-top: 4em;
     background: url("../img/re-setting.png") top left no-repeat;
     background-size: 3em;
+}
+
+
+/*************** marketplaces ******************/
+
+#benefits ul {
+    padding-left: 0;
+}
+
+#benefits li {
+    list-style: none;
+    padding-left: 2em;
+    border-left: var(--bs-primary) solid thick;
 }
