@@ -50,7 +50,7 @@
     }
 }
 
-//*************************************************
+//*************************************************/
 
 span.vl {
     border-left: 2px solid #888;
@@ -103,4 +103,35 @@ hr.red {
 button.covered {
     position: relative;
     left: -1em;
+}
+
+/** dotted list **/
+
+.dotted-list {
+    border-left: var(--bs-primary) dotted thick;
+}
+
+.dotted-list li {
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ul.dotted-list li::before {
+    content: "\2022\00A0\2022\00A0\2022\00A0\2022\00A0\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--bs-primary); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 3.2em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.8em; /* Also needed for space (tweak if needed) */
+}
+
+.dotted-list .pt-0 {
+    position: relative;
+    top: -3px;
+}
+
+.dotted-list .pb-0 {
+    position: relative;
+    bottom: -4px;
 }
