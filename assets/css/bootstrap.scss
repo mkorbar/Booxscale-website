@@ -19,5 +19,7 @@ $navbar-padding-y: 15px;
 
 $btn-padding-x: 1em;
 
+$spacer: 3rem;
+
 // TODO: Only import bootstrap parts that we need not the whole bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
