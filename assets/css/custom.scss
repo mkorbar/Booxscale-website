@@ -140,6 +140,7 @@ ul.dotted-list li::before {
     direction: rtl;
     margin-right: 0;
     padding-right: 0;
+    border-left: none;
 }
 
 .dotted-list-left li {
