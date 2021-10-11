@@ -144,29 +144,10 @@
         <!-- contact form -->
         <div class="row flex-column-reverse flex-lg-row mt-5" id="contact">
             <div class="col-lg-8">
-                <form>
-                    <div class="mb-1">
-                        <div class="row">
-                            <div class="col">
-                                <label for="nameBox" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="nameBox" required>
-                            </div>
-                            <div class="col">
-                                <label for="surnameBox" class="form-label">Surname</label>
-                                <input type="text" class="form-control" id="surnameBox" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-1">
-                        <label for="emailBox" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="emailBox" aria-describedby="emailHelp" required>
-                    </div>
-                    <div class="mb-1">
-                        <label class="form-check-label" for="messageBox">Message</label>
-                        <textarea class="form-control" id="messageBox"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary px-3">Send</button>
-                </form>
+                <div class="cognito">
+                    <script src="https://www.cognitoforms.com/s/4rD_LB-RAUScDdUw_lxKwg"></script>
+                    <script>Cognito.load("forms", { id: "1" });</script>
+                </div>
             </div>
             <div class="col-lg-4 text-center text-lg-start">
                 <div class="contact-header">
@@ -180,9 +161,8 @@
                 </div>
             </div>
         </div>
-
         <!-- footer -->
-        <div class="row my-5">
+        <div class="row my-1">
             <div class="col text-center">
                 <hr class="red">
                 <div class="mt-1">

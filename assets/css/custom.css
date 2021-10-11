@@ -170,4 +170,16 @@ ul.dotted-list li::before {
   border-left: var(--bs-primary) solid thick;
 }
 
+/********************** cognito forms ***********************/
+.cognito INPUT[type=text], .cognito INPUT[type=password], .cognito INPUT[type=email], .cognito INPUT[type=tel], .cognito INPUT[type=url], .cognito textarea, .cognito select {
+  padding: 0.375rem 0.75rem;
+  border-radius: 1.5rem;
+  border: 1px solid #ced4da;
+}
+
+.cognito button {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 /*# sourceMappingURL=custom.css.map */
