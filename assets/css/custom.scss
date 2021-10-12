@@ -1,3 +1,19 @@
+@import "bootstrap";
+
+h1 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+    color: $primary;
+}
+
+.btn {
+    min-width: 140px;
+    text-transform: uppercase;
+}
+
 .rectangle-bg-landing {
     position: absolute;
     top: -60%;
@@ -10,43 +26,60 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
+
+    img {
+        width: 100%;
+    }
 }
 
-#Rectangle_1 {
-    animation: rotate-1 2s linear infinite;
+.above-title-text {
+    font-weight: 300;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #A4A4A4;
 }
+
+.section-bxs-customers {
+    background: url(../img/x-bg.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+// #Rectangle_1 {
+//     animation: rotate-1 4s linear infinite;
+// }
 
 @keyframes rotate-1 {
     0% {
-        -webkit-transform:  rotateZ(-30deg);
-        transform:  rotateZ(-30deg);
+        -webkit-transform:  rotateZ(-40deg);
+        transform:  rotateZ(-40deg);
     }
     50% {
-        -webkit-transform:  rotateZ(-31deg);
-        transform:  rotateZ(-31deg);
+        -webkit-transform:  rotateZ(-41deg);
+        transform:  rotateZ(-41deg);
     }
     100% {
-        -webkit-transform:  rotateZ(-30deg);
-        transform:  rotateZ(-30deg);
+        -webkit-transform:  rotateZ(-40deg);
+        transform:  rotateZ(-40deg);
     }
 }
 
 #Rectangle_2 {
-    animation: rotate-2 2s linear infinite;
+    animation: rotate-2 4s linear infinite;
 }
 
 @keyframes rotate-2 {
     0% {
-        -webkit-transform:  rotateZ(-30deg);
-        transform:  rotateZ(-34deg);
+        -webkit-transform:  rotateZ(-44deg);
+        transform:  rotateZ(-44deg);
     }
     50% {
-        -webkit-transform:  rotateZ(-31deg);
-        transform:  rotateZ(-33deg);
+        -webkit-transform:  rotateZ(-42deg);
+        transform:  rotateZ(-42deg);
     }
     100% {
-        -webkit-transform:  rotateZ(-30deg);
-        transform:  rotateZ(-34deg);
+        -webkit-transform:  rotateZ(-44deg);
+        transform:  rotateZ(-44deg);
     }
 }
 
@@ -55,10 +88,6 @@
 span.vl {
     border-left: 2px solid #888;
     margin: 0 0.8em;
-}
-
-.btn {
-    border-radius: 50rem;
 }
 
 .red {
