@@ -117,16 +117,16 @@ h3 {
 
 @keyframes rotate-3 {
     0% {
-        -webkit-transform: matrixmatrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
-        transform: matrixmatrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
+        -webkit-transform: matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
+        transform: matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
     }
     70% {
         -webkit-transform: matrix(0.985, -0.174, 0.174, 0.985, 100.999, 198.378);
         transform: matrix(0.985, -0.174, 0.174, 0.985, 100.999, 198.378);
     }
     100% {
-        -webkit-transform: matrixmatrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
-        transform: matrixmatrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
+        -webkit-transform: matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
+        transform: matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378);
     }
 }
 
