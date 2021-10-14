@@ -11442,7 +11442,7 @@ ul.dotted-list li span.dots::before {
 
 #how-it-works {
   padding-top: 4em;
-  background: url("../img/re-setting.png") top left no-repeat;
+  background: url("../img/re-setting.png") 10px 5px no-repeat;
   background-size: 3em;
 }
 
@@ -11451,9 +11451,7 @@ ul.dotted-list li span.dots::before {
   padding-left: 0;
 }
 
-#benefits li {
-  list-style: none;
-  padding-left: 2em;
+.benefit-items div {
   border-left: var(--bs-primary) solid thick;
 }
 
