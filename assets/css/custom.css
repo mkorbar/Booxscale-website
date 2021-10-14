@@ -11398,9 +11398,10 @@ hr.red {
   list-style: none;
   padding-top: 1em;
   padding-bottom: 1em;
+  display: flex;
 }
 
-ul.dotted-list li::before {
+ul.dotted-list li span.dots::before {
   content: "• • • • •";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: var(--bs-primary);
