@@ -11239,8 +11239,9 @@ h3, .h3 {
   padding: 0;
 }
 .bxs-ul li {
-  background: url(../img/bullet-point.svg) no-repeat;
-  background-position: left 7px;
+  background: url(../img/bullet-point-bxs.svg) no-repeat;
+  background-position: top left;
+  background-size: 22px;
   padding: 0 0 1rem 2rem;
 }
 
