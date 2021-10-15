@@ -3297,7 +3297,7 @@ textarea.form-control-lg {
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 1em;
+  padding: 0.375rem 1.5rem;
   font-size: 1rem;
   border-radius: 50px;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3968,8 +3968,8 @@ textarea.form-control-lg {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
@@ -4303,8 +4303,8 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle-split {
-  padding-right: 0.75em;
-  padding-left: 0.75em;
+  padding-right: 1.125rem;
+  padding-left: 1.125rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-left: 0;
@@ -4378,7 +4378,7 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  color: #042638;
+  color: #d02d35;
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5020,10 +5020,10 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55);
+  color: #042638;
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: #d02d35;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -5033,14 +5033,14 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: #042638;
+  border-color: transparent;
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 102.97'%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%23173042;}%3c/style%3e%3c/defs%3e%3cg id='icons'%3e%3cpath class='cls-1' d='M84,26.86h61.57A4.47,4.47,0,0,0,150,22.39V4.48A4.47,4.47,0,0,0,145.52,0H84'/%3e%3cpath class='cls-1' d='M84,64.92h39.19a4.48,4.48,0,0,0,4.47-4.48V42.53a4.47,4.47,0,0,0-4.47-4.47H84'/%3e%3cpath class='cls-1' d='M84,103h52.62a4.48,4.48,0,0,0,4.48-4.47V80.59a4.49,4.49,0,0,0-4.48-4.48H84'/%3e%3cpath class='cls-1' d='M40.29,80.59V98.5A4.48,4.48,0,0,0,44.77,103H84V76.11H44.77A4.49,4.49,0,0,0,40.29,80.59ZM17.91,42.53V60.44a4.48,4.48,0,0,0,4.48,4.48H84V38.06H22.39A4.47,4.47,0,0,0,17.91,42.53ZM4.48,0A4.47,4.47,0,0,0,0,4.48V22.39a4.47,4.47,0,0,0,4.48,4.47H84V0Z'/%3e%3c/g%3e%3c/svg%3e");
 }
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.55);
+  color: #042638;
 }
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
@@ -6097,8 +6097,8 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem;
 }
 .toast.showing {
@@ -6316,8 +6316,8 @@ textarea.form-control-lg {
   }
 
   .modal-content {
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
   }
 
   .modal-sm {
@@ -6593,8 +6593,8 @@ textarea.form-control-lg {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 .popover .popover-arrow {
   position: absolute;
@@ -7539,8 +7539,8 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
 }
 
 .shadow-sm {
@@ -12549,8 +12549,11 @@ h3, .h3 {
 }
 
 .btn {
-  min-width: 140px;
   text-transform: uppercase;
+}
+
+.covered {
+  margin-left: -1rem;
 }
 
 /* UL */
@@ -12563,6 +12566,31 @@ h3, .h3 {
   background-position: top left;
   background-size: 22px;
   padding: 0 0 1rem 2rem;
+}
+
+/* ----- Nav ----- */
+.navbar-collapse {
+  background: white;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+.navbar-collapse .navbar-nav {
+  padding: 30px;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-toggler {
+  padding: 10px;
+}
+.navbar-toggler[aria-expanded=true] {
+  background: white;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  border-radius: 0;
 }
 
 /* ----- Landing ----- */
@@ -12723,17 +12751,30 @@ h3, .h3 {
   }
 }
 /* ----- Queries ----- */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
 @media (max-width: 991.98px) {
   .landing-banner-container {
     min-height: 100vh;
+    background-image: none;
   }
 
   .rectangle-bg-landing {
     max-width: none;
   }
 }
+@media (max-width: 440px) {
+  .covered {
+    margin-left: 0;
+  }
+}
 span.vl {
-  border-left: 2px solid #888;
+  border-left: 2px solid #e5e5e5;
   margin: 0 0.8em;
 }
 
@@ -12772,11 +12813,6 @@ hr.red {
 
 .faq-header .graphics {
   background-image: url("../img/faq-icon.png");
-}
-
-.covered {
-  position: relative;
-  left: -1em;
 }
 
 /** dotted list **/

@@ -12,8 +12,11 @@ h3 {
 }
 
 .btn {
-    min-width: 140px;
     text-transform: uppercase;
+}
+
+.covered {
+    margin-left: -1rem;
 }
 
 /* UL */
@@ -26,6 +29,31 @@ h3 {
         background-position: top left;
         background-size: 22px;
         padding: 0 0 1rem 2rem;
+    }
+}
+
+/* ----- Nav ----- */
+
+.navbar-collapse {
+    background: white;
+    box-shadow: $box-shadow;
+
+    .navbar-nav {
+        padding: 30px;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    padding: 10px;
+
+    &[aria-expanded="true"] {
+        background: white;
+        box-shadow: $box-shadow;
+        border-radius: 0;
     }
 }
 
@@ -145,10 +173,18 @@ h3 {
 }
 
 /* ----- Queries ----- */
+@include media-breakpoint-up(lg) {
+    .navbar-expand-lg .navbar-collapse {
+        background: none;
+        box-shadow: none;
+    }
+}
+
 
 @include media-breakpoint-down(lg) {
     .landing-banner-container {
         min-height: 100vh;
+        background-image: none;
     }
 
     .rectangle-bg-landing {
@@ -156,10 +192,16 @@ h3 {
     }
 }
 
+@media (max-width: 440px) {
+    .covered {
+        margin-left: 0;
+    }
+}
+
 //*************************************************/
 
 span.vl {
-    border-left: 2px solid #888;
+    border-left: 2px solid #e5e5e5;
     margin: 0 0.8em;
 }
 
@@ -197,11 +239,6 @@ hr.red {
 
 .faq-header .graphics {
     background-image: url("../img/faq-icon.png");
-}
-
-.covered {
-    position: relative;
-    left: -1em;
 }
 
 /** dotted list **/
