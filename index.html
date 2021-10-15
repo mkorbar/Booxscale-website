@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container px-0">
+            <div class="container-fluid px-0">
                 <a class="navbar-brand" href="/">
                     <img src="./assets/img/booxscale-logo-red.svg" alt="Booxscale" height="24"
                         class="d-inline-block align-text-top">
@@ -32,6 +32,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="marketplaces.html">Marketplaces</a>
                         </li>
+                        <span class="vl d-none d-lg-inline"></span>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact"><b>Get in Touch</b></a>
                         </li>
@@ -40,96 +41,116 @@
             </div>
         </nav>
 
-        <div class="container">
-            <div class="header">
-                <svg class="rectangle-bg-landing" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1500"
-                    width="100%" height="100%">
-                    <rect id="Rectangle_1" data-name="Rectangle 3" width="2000" height="2000" transform="rotate(-40)"
-                        fill="rgba(208,45,53,0.1)" x="-550" y="-1000"></rect>
-                    <rect id="Rectangle_2" data-name="Rectangle 3" width="2000" height="2000" transform="rotate(-40)"
-                        fill="rgba(208,45,53,0.05)" x="-480" y="-960"></rect>
-                </svg>
-                <div class="row landing-banner-container align-items-start align-items-xl-center pt-5 pt-xl-0">
-                    <div class="col col-lg-7 col-sm-12">
-                        <h1>Smarter way to reach more customers and serve the most relevant hyper-local,
-                            real-time results.</h1>
-                        <a class="btn btn-primary mt-3 px-3" href="#contact">Get in touch</a>
-                    </div>
-                </div>
-            </div>
-            <!-- who are Booxscale customers -->
-            <div class="row justify-content-center section-bxs-customers py-3">
-                <div class="col-12">
-                    <div class="row text-center">
-                        <div class="col">
-                            <p class="above-title-text">Where do you fit into the picture?</p>
-                            <h1>Booxscale customers</h1>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center mt-2">
-                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between inner-block mb-3">
-                            <div>
-                                <h3>Publishers</h3>
-                                <p>Supercharge your business listings and maximize your ad revenue by enabling your
-                                    visitors
-                                    book directly with your advertisers from your site.</p>
-                                <ul class="bxs-ul">
-                                    <li>New revenue stream</li>
-                                    <li>Serve the most relevant hyper-local, real-time results</li>
-                                    <li>Minimum effort for implementation</li>
-                                </ul>
-                            </div>
-                            <div class="mt-sm-1 mt-md-2">
-                                <a class="btn btn-outline-primary my-1" href="publishers.html">More info</a>
-                                <a class="btn covered btn-primary" href="publishers.html#join">Join as a Publisher</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-1"></div>
-                        <div class="col-12 col-lg-5 d-flex flex-column justify-content-between inner-block mb-3">
-                            <div>
-                                <h3>Marketplaces</h3>
-                                <p>Your customers can schedule appointments, request quotes and book services directly
-                                    from
-                                    popular business listings
-                                    directories, social networks, maps and search engines.</p>
-                                <ul class="bxs-ul">
-                                    <li>High quality leads</li>
-                                    <li>Improved presence on the web</li>
-                                    <li>Pay only for conversions</li>
-                                </ul>
-                            </div>
-                            <div class="mt-sm-1 mt-md-2">
-                                <a class="btn btn-outline-primary my-1" href="marketplaces.html">More info</a>
-                                <a class="btn covered btn-primary" href="marketplaces.html#join">Join as a
-                                    Marketplace</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 mt-2 pt-lg-3 pt-sm-1 position-relative">
-                <div class="col d-flex justify-content-center">
-                    <svg class="rectangle-img-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1348.329 546.167">
-                        <rect id="rectangle-3" width="1200" height="343"
-                            transform="matrix(0.996, 0.087, -0.087, 0.996, 29.894, 2.724)" fill="rgba(208,45,53,0.3)" />
-                        <rect id="rectangle-4" width="1200" height="343"
-                            transform="matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378)"
-                            fill="rgba(208,45,53,0.15)" />
-                    </svg>
-                    <img class="img-fluid" src="./assets/img/ppl-on-phones.jpg" alt="people using Booxscale">
-                </div>
-            </div>
 
-            <!-- How effective is booxscale -->
-            <div class="row justify-content-center mt-5 pt-5">
+        <div class="header">
+            <svg class="rectangle-bg-landing" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1500" width="100%"
+                height="100%">
+                <rect id="Rectangle_1" data-name="Rectangle 3" width="2000" height="2000" transform="rotate(-40)"
+                    fill="rgba(208,45,53,0.1)" x="-550" y="-1000"></rect>
+                <rect id="Rectangle_2" data-name="Rectangle 3" width="2000" height="2000" transform="rotate(-40)"
+                    fill="rgba(208,45,53,0.05)" x="-480" y="-960"></rect>
+            </svg>
+            <div class="row landing-banner-container align-items-start align-items-xl-center pt-5 pt-xl-0">
+                <div class="col col-lg-7 col-sm-12">
+                    <h1>Smarter way to reach more customers and serve the most relevant hyper-local,
+                        real-time results.</h1>
+                    <a class="btn btn-primary mt-3 px-3" href="#contact">Get in touch</a>
+                </div>
+            </div>
+        </div>
+        <!-- who are Booxscale customers -->
+        <div class="row justify-content-center section-bxs-customers py-3">
+            <div class="col-12">
+                <div class="row text-center">
+                    <div class="col">
+                        <p class="above-title-text">Where do you fit into the picture?</p>
+                        <h1>Booxscale customers</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-12 col-lg-5 d-flex flex-column justify-content-between inner-block mb-3">
+                        <div>
+                            <h3>Publishers</h3>
+                            <p>Supercharge your business listings and maximize your ad revenue by enabling your visitors
+                                book directly with your advertisers from your site.</p>
+                            <ul class="bxs-ul">
+                                <li>New revenue stream</li>
+                                <li>Serve the most relevant hyper-local, real-time results</li>
+                                <li>Minimum effort for implementation</li>
+                            </ul>
+                        </div>
+                        <div class="mt-2">
+                            <a class="btn btn-outline-primary" href="publishers.html">More info</a>
+                            <a class="btn covered btn-primary ml-n5" href="publishers.html#join">Join as a Publisher</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-1"></div>
+                    <div class="col-12 col-lg-5 d-flex flex-column justify-content-between inner-block mb-3">
+                        <div>
+                            <h3>Marketplaces</h3>
+                            <p>Your customers can schedule appointments, request quotes and book services directly from
+                                popular business listings
+                                directories, social networks, maps and search engines.</p>
+                            <ul class="bxs-ul">
+                                <li>High quality leads</li>
+                                <li>Improved presence on the web</li>
+                                <li>Pay only for conversions</li>
+                            </ul>
+                        </div>
+                        <div class="mt-2">
+                            <a class="btn btn-outline-primary" href="marketplaces.html">More info</a>
+                            <a class="btn covered btn-primary ml-n5" href="marketplaces.html#join">Join as a
+                                Marketplace</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5 mt-2 pt-lg-3 pt-sm-1 position-relative">
+            <div class="col d-flex justify-content-center">
+                <svg class="rectangle-img-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1348.329 546.167">
+                    <rect id="rectangle-3" width="1200" height="343"
+                        transform="matrix(0.996, 0.087, -0.087, 0.996, 29.894, 2.724)" fill="rgba(208,45,53,0.3)" />
+                    <rect id="rectangle-4" width="1200" height="343"
+                        transform="matrix(0.985, -0.174, 0.174, 0.985, 106.999, 208.378)" fill="rgba(208,45,53,0.15)" />
+                </svg>
+                <img class="img-fluid" src="./assets/img/ppl-on-phones.jpg" alt="people using Booxscale">
+            </div>
+        </div>
+
+            <!-- How it works -->
+        <div class="row justify-content-center mt-5 pt-5">
+            <div class="col-12 text-center">
+                <p class="above-title-text">Booxscale solutions</p>
+                <h1>How it works</h1>
+            </div>
+            <div class="col-12 d-flex justify-content-around flex-column-reverse flex-md-row">
+                <div class="my-3 col-12 col-md-7">
+                    <p>
+                        Booxscale specializes in acquisition and maintenance of the <b>best quality</b> and
+                        <b>up-to-date data</b> (such as business details, opening times and reviews) <b>about
+                            hundreds of businesses</b> from our marketplace partners.
+                    </p>
+                    <p>
+                        This data is used to generate <b>links</b> or custom made <b>instant book widgets</b> which
+                        are displayed at the right time and place within our partner publisher websites and applications.
+                    </p>
+                </div>
+                <div class="my-3 col-12 col-md-5">
+                    <img class="img-fluid" src="assets/img/widget-mock.png" alt="An set of examples how the Booxscale widgets might look like" />
+                </div>
+            </div>
+        </div>
+
+        <!-- How effective is booxscale -->
+            <div class="row justify-content-center mt-5">
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12 text-center">
                             <p class="above-title-text">How effective is Booxscale</p>
                             <h1>What kind of results can I expect?</h1>
                         </div>
-                        <div
-                            class="col-12 d-flex justify-content-around flex-column flex-lg-row text-center text-lg-start">
+                        <div class="col-12 d-flex justify-content-around flex-column flex-lg-row text-center text-lg-start">
                             <div class="my-3">
                                 <p class="display-3 text-primary mb-0">50.000+</p>
                                 <span>Redirects via Booxscale</span>
@@ -147,44 +168,44 @@
                 </div>
             </div>
 
-            <!-- contact form -->
-            <div class="row mt-5 justify-content-around" id="contact">
-                <div class="col-lg-4">
-                    <div class="contact-header text-center text-lg-start">
-                        <img class="mb-2" src="assets/img/contact-us-icon.svg" />
-                        <div class="text">
-                            <p class="above-title-text">Reach out</p>
-                            <h1>Get in touch</h1>
-                            <p>Contact us today and find out more about Booxscale</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="cognito">
-                        <script src="https://www.cognitoforms.com/s/4rD_LB-RAUScDdUw_lxKwg"></script>
-                        <script>Cognito.load("forms", { id: "1" });</script>
+        <!-- contact form -->
+        <div class="row mt-5 justify-content-around" id="contact">
+            <div class="col-lg-4">
+                <div class="contact-header text-center text-lg-start">
+                    <img class="mb-2" src="assets/img/contact-us-icon.svg" />
+                    <div class="text">
+                        <p class="above-title-text">Reach out</p>
+                        <h1>Get in touch</h1>
+                        <p>Contact us today and find out more about Booxscale</p>
                     </div>
                 </div>
             </div>
-            <!-- footer -->
-            <div class="row my-1">
-                <div class="col text-center">
-                    <hr class="red">
-                    <div class="footer-nav mt-1">
-                        <a class="mx-1" href="publishers.html">Publishers</a>
-                        <a class="mx-1" href="marketplaces.html">Marketplaces</a>
-                    </div>
-                    <div class="mt-1">
-                        <img src="./assets/img/favicon-500x500.png" alt="Booxscale" height="48"
-                            class="d-inline-block align-text-top">
-                    </div>
-                    <div class="mt-1">
-                        <small>2021 &copy; Booxscale</small>
-                    </div>
+            <div class="col-lg-6">
+                <div class="cognito">
+                    <script src="https://www.cognitoforms.com/s/4rD_LB-RAUScDdUw_lxKwg"></script>
+                    <script>Cognito.load("forms", { id: "1" });</script>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row my-1">
+            <div class="col text-center">
+                <hr class="red">
+                <div class="footer-nav mt-1">
+                    <a class="mx-1" href="publishers.html">Publishers</a>
+                    <a class="mx-1" href="marketplaces.html">Marketplaces</a>
+                </div>
+                <div class="mt-1">
+                    <img src="./assets/img/favicon-500x500.png" alt="Booxscale" height="48"
+                        class="d-inline-block align-text-top">
+                </div>
+                <div class="mt-1">
+                    <small>2021 &copy; Booxscale</small>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
