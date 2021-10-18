@@ -62,6 +62,20 @@ h3 {
     }
 }
 
+/* ----- Accordion ----- */
+
+.accordion-item {
+    box-shadow: 0 0 10px rgb(0 0 0 / 7%);
+    margin: 10px 0;
+    border: none;
+
+    button {
+        font-size: 21px;
+        font-weight: 400;
+        box-shadow: none !important;
+    }
+}
+
 /* ----- Landing ----- */
 
 .rectangle-bg-landing {
@@ -211,7 +225,7 @@ h3 {
     .logo-icon-circle {
         position: absolute;
         z-index: -1;
-        opacity: .1;
+        opacity: 0.1;
         top: 30%;
         width: 200px;
         height: 200px;
