@@ -6,6 +6,11 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-weight: 400;
+    color: $body-color;
+}
+
 h3 {
     font-weight: 400;
     color: $primary;
@@ -117,6 +122,19 @@ h3 {
     animation: rotate-3 4s linear infinite;
 }
 
+/* ----- Publisher Page ----- */
+.logo-icon-circle {
+    border: 3px dashed $primary;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
 /* ----- Footer ----- */
 
 .footer-nav a {
@@ -180,7 +198,6 @@ h3 {
     }
 }
 
-
 @include media-breakpoint-down(lg) {
     .landing-banner-container {
         min-height: 100vh;
@@ -189,6 +206,15 @@ h3 {
 
     .rectangle-bg-landing {
         max-width: none;
+    }
+
+    .logo-icon-circle {
+        position: absolute;
+        z-index: -1;
+        opacity: .1;
+        top: 30%;
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -286,12 +312,6 @@ ul.dotted-list li span.dots::before {
 
 .no-dots::before {
     content: "";
-}
-
-#how-it-works {
-    padding-top: 4em;
-    background: url("../img/re-setting.png") 10px 5px no-repeat;
-    background-size: 3em;
 }
 
 /*************** marketplaces ******************/
