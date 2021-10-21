@@ -12697,6 +12697,17 @@ h3, .h3 {
   padding: 50px;
 }
 
+/* ----- Publisher Page ----- */
+.main-benefits span {
+  padding: 15px 30px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.333rem;
+  border-left: 2px solid #d02d35;
+}
+
 /* ----- Footer ----- */
 .footer-nav a {
   color: #042638;
