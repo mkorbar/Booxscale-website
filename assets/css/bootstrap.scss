@@ -27,7 +27,7 @@ $btn-border-radius: 50px;
 $btn-line-height: 32px;
 $btn-white-space: nowrap;
 $btn-font-weight: 700;
-$btn-box-shadow: 0 5px 15px rgba(rgba(0,0,0), .2);
+$btn-box-shadow: 0 5px 15px rgba(rgb(0,0,0), .2);
 
 $accordion-button-focus-box-shadow: none;
 $accordion-button-active-bg: none;
@@ -36,6 +36,7 @@ $accordion-border-radius: 50px;
 $accordion-icon-color: $primary;
 $accordion-icon-active-color: $primary;
 
+$enable-negative-margins: true;
 
 $spacer: 3rem;
 
