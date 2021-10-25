@@ -52,10 +52,22 @@ rect {
     }
 }
 
-.nav-item {
+.nav-link {
+    text-transform: uppercase;
 
+    &.active {
+        font-weight: 700;
+
+        &:hover {
+            cursor: default;
+        }
+
+        &:after {
+            background-color: $body-color;
+        }
+    }
     &:after {
-        transition: all ease-in-out .2s;
+        transition: all ease-in-out 0.2s;
         background: none repeat scroll 0 0 $primary;
         content: "";
         display: block;
@@ -63,7 +75,7 @@ rect {
         width: 0;
     }
 
-    &:hover:after {
+    &:not(.active):hover:after {
         width: 100%;
     }
 }
@@ -208,6 +220,7 @@ rect {
     color: $body-color;
     font-weight: 500;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* ----- cognito forms ----- */
@@ -335,9 +348,7 @@ rect {
 }
 
 @media (max-width: 440px) {
-    .covered {
-        margin-left: 0;
-    }
+
 }
 
 //*************************************************/
