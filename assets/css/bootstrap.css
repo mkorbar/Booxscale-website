@@ -2472,8 +2472,8 @@ progress {
   background-color: #fff;
   border-color: #e8969a;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem #d02d35;
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem #d02d35;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2675,8 +2675,8 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #e8969a;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem #d02d35;
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem #d02d35;
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.75rem;
@@ -2744,8 +2744,8 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: #e8969a;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #d02d35;
+          box-shadow: 0 0 0 0.25rem #d02d35;
 }
 .form-check-input:checked {
   background-color: #d02d35;
@@ -2828,11 +2828,11 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #d02d35;
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #d02d35;
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #d02d35;
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -3316,16 +3316,16 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #d02d35;
+          box-shadow: 0 0 0 0.25rem #d02d35;
 }
 .btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 .btn-check:checked + .btn:focus, .btn-check:active + .btn:focus, .btn:active:focus, .btn.active:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);
-          box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: 0 0 0 0.25rem #d02d35, inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: 0 0 0 0.25rem #d02d35, inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -5440,8 +5440,8 @@ textarea.form-control-lg {
   color: #a6242a;
   background-color: #e9ecef;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #d02d35;
+          box-shadow: 0 0 0 0.25rem #d02d35;
 }
 
 .page-item:not(:first-child) .page-link {
@@ -6071,8 +6071,8 @@ textarea.form-control-lg {
 }
 .btn-close:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(208, 45, 53, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #d02d35;
+          box-shadow: 0 0 0 0.25rem #d02d35;
   opacity: 1;
 }
 .btn-close:disabled, .btn-close.disabled {
