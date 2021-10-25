@@ -52,6 +52,22 @@ rect {
     }
 }
 
+.nav-item {
+
+    &:after {
+        transition: all ease-in-out .2s;
+        background: none repeat scroll 0 0 $primary;
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+}
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -327,7 +343,7 @@ rect {
 //*************************************************/
 
 span.vl {
-    border-left: 2px solid #e5e5e5;
+    border-left: 2px solid $primary;
     margin: 0 0.8em;
 }
 
