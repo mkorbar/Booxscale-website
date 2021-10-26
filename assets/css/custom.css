@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Bootstrap v5.1.1 (https://getbootstrap.com/)
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -667,9 +667,9 @@ progress {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 .row > * {
   -ms-flex-negative: 0;
@@ -2234,8 +2234,8 @@ progress {
 .table > thead {
   vertical-align: bottom;
 }
-.table > :not(:last-child) > :last-child > * {
-  border-bottom-color: currentColor;
+.table > :not(:first-child) {
+  border-top: 2px solid currentColor;
 }
 
 .caption-top {
@@ -2256,8 +2256,11 @@ progress {
 .table-borderless > :not(caption) > * > * {
   border-bottom-width: 0;
 }
+.table-borderless > :not(:first-child) {
+  border-top-width: 0;
+}
 
-.table-striped > tbody > tr:nth-of-type(odd) {
+.table-striped > tbody > tr:nth-of-type(odd) > * {
   --bs-table-accent-bg: var(--bs-table-striped-bg);
   color: var(--bs-table-striped-color);
 }
@@ -2267,7 +2270,7 @@ progress {
   color: var(--bs-table-active-color);
 }
 
-.table-hover > tbody > tr:hover {
+.table-hover > tbody > tr:hover > * {
   --bs-table-accent-bg: var(--bs-table-hover-bg);
   color: var(--bs-table-hover-color);
 }
@@ -2695,6 +2698,7 @@ textarea.form-control-lg {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   font-size: 0.875rem;
+  border-radius: 0.2rem;
 }
 
 .form-select-lg {
@@ -2702,6 +2706,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   font-size: 1.25rem;
+  border-radius: 0.3rem;
 }
 
 .form-check {
@@ -13713,6 +13718,62 @@ rect {
 }
 
 /* ----- Animations ----- */
+@-webkit-keyframes landing-header-1 {
+  0% {
+    -webkit-transform: translate(-50%, -25%) rotate(-40deg);
+            transform: translate(-50%, -25%) rotate(-40deg);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -20%) rotate(-44deg);
+            transform: translate(-50%, -20%) rotate(-44deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -25%) rotate(-40deg);
+            transform: translate(-50%, -25%) rotate(-40deg);
+  }
+}
+@keyframes landing-header-1 {
+  0% {
+    -webkit-transform: translate(-50%, -25%) rotate(-40deg);
+            transform: translate(-50%, -25%) rotate(-40deg);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -20%) rotate(-44deg);
+            transform: translate(-50%, -20%) rotate(-44deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -25%) rotate(-40deg);
+            transform: translate(-50%, -25%) rotate(-40deg);
+  }
+}
+@-webkit-keyframes landing-header-2 {
+  0% {
+    -webkit-transform: translate(-45%, -22%) rotate(-38deg);
+            transform: translate(-45%, -22%) rotate(-38deg);
+  }
+  50% {
+    -webkit-transform: translate(-48%, -22%) rotate(-34deg);
+            transform: translate(-48%, -22%) rotate(-34deg);
+  }
+  100% {
+    -webkit-transform: translate(-45%, -22%) rotate(-38deg);
+            transform: translate(-45%, -22%) rotate(-38deg);
+  }
+}
+@keyframes landing-header-2 {
+  0% {
+    -webkit-transform: translate(-45%, -22%) rotate(-38deg);
+            transform: translate(-45%, -22%) rotate(-38deg);
+  }
+  50% {
+    -webkit-transform: translate(-48%, -22%) rotate(-34deg);
+            transform: translate(-48%, -22%) rotate(-34deg);
+  }
+  100% {
+    -webkit-transform: translate(-45%, -22%) rotate(-38deg);
+            transform: translate(-45%, -22%) rotate(-38deg);
+  }
+}
 @-webkit-keyframes rotate-1 {
   0% {
     -webkit-transform: rotate(1deg);
@@ -13835,14 +13896,19 @@ rect {
           animation: rotate-2 6s linear infinite;
 }
 
+.rectangle-bg-landing {
+  width: 95vw;
+  height: 100vh;
+}
+
 #rectangle_3 {
-  -webkit-animation: rotate-3 4s linear infinite;
-          animation: rotate-3 4s linear infinite;
+  -webkit-animation: landing-header-1 4s ease-out infinite;
+          animation: landing-header-1 4s ease-out infinite;
 }
 
 #rectangle_4 {
-  -webkit-animation: rotate-4 6s linear infinite;
-          animation: rotate-4 6s linear infinite;
+  -webkit-animation: landing-header-2 6s ease infinite;
+          animation: landing-header-2 6s ease infinite;
 }
 
 /* ----- Queries ----- */
@@ -13979,3 +14045,4 @@ ul.dotted-list li span.dots::before {
 .benefit-items div {
   border-left: var(--bs-primary) solid thick;
 }
+/*# sourceMappingURL=custom.css.map */

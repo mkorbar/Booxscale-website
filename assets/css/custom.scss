@@ -286,6 +286,31 @@ rect {
     }
 }
 
+@keyframes landing-header-1 {
+    0% {
+        transform: translate(-50%, -25%) rotate(-40deg);
+    }
+    50% {
+        transform: translate(-50%, -20%) rotate(-44deg);
+    }
+    100% {
+        transform: translate(-50%, -25%) rotate(-40deg);
+    }
+}
+
+@keyframes landing-header-2 {
+    0% {
+        transform: translate(-45%, -22%) rotate(-38deg);
+    }
+    50% {
+        transform: translate(-48%, -22%) rotate(-34deg);
+    }
+    100% {
+        transform: translate(-45%, -22%) rotate(-38deg);
+    }
+}
+
+
 @include rotate-mixin(rotate-1, 1deg, 5deg);
 @include rotate-mixin(rotate-2, -2deg, -3deg);
 @include rotate-mixin(rotate-3, -40deg, -38deg);
@@ -299,12 +324,19 @@ rect {
     animation: rotate-2 6s linear infinite;
 }
 
+.rectangle-bg-landing {
+    width: 95vw;
+    height: 100vh;
+}
+
 #rectangle_3 {
-    animation: rotate-3 4s linear infinite;
+    //transform: translate(-50%, -25%) rotate(-40deg);
+    animation: landing-header-1 4s ease-out infinite;
 }
 
 #rectangle_4 {
-    animation: rotate-4 6s linear infinite;
+    //transform: translate(-45%, -22%) rotate(-38deg);
+    animation: landing-header-2 6s ease infinite;
 }
 
 /* ----- Queries ----- */
